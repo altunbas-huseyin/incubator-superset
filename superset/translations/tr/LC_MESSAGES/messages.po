@@ -22,15 +22,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-06-07 00:22-0700\n"
-"PO-Revision-Date: 2019-06-23 15:05+0300\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2019-06-23 15:06+0300\n"
 "Language: tr\n"
 "Language-Team: tr <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.2.3\n"
 
 #: superset/assets/src/explore/controls.jsx:818 superset/db_engine_specs.py:343
 #: superset/db_engine_specs.py:393 superset/db_engine_specs.py:422
@@ -187,8 +188,8 @@ msgstr ""
 
 #: superset/forms.py:76
 msgid ""
-"If table exists do one of the following: Fail (do nothing), Replace (drop"
-" and recreate table) or Append (insert data)."
+"If table exists do one of the following: Fail (do nothing), Replace (drop and "
+"recreate table) or Append (insert data)."
 msgstr ""
 
 #: superset/forms.py:81
@@ -217,8 +218,8 @@ msgstr ""
 
 #: superset/forms.py:92
 msgid ""
-"Row containing the headers to use as column names (0 is first line of "
-"data). Leave empty if there is no header row."
+"Row containing the headers to use as column names (0 is first line of data). "
+"Leave empty if there is no header row."
 msgstr ""
 
 #: superset/forms.py:100
@@ -227,8 +228,8 @@ msgstr ""
 
 #: superset/forms.py:101
 msgid ""
-"Column to use as the row labels of the dataframe. Leave empty if no index"
-" column."
+"Column to use as the row labels of the dataframe. Leave empty if no index "
+"column."
 msgstr ""
 
 #: superset/forms.py:108
@@ -309,8 +310,8 @@ msgstr ""
 
 #: superset/forms.py:152
 msgid ""
-"Column label for index column(s). If None is given and Dataframe Index is"
-" True, Index Names are used."
+"Column label for index column(s). If None is given and Dataframe Index is True, "
+"Index Names are used."
 msgstr ""
 
 #: superset/utils.py:576
@@ -428,8 +429,8 @@ msgstr ""
 
 #: superset/viz.py:1220
 msgid ""
-"`Since` and `Until` time bounds should be specified when using the `Time "
-"Shift` feature."
+"`Since` and `Until` time bounds should be specified when using the `Time Shift` "
+"feature."
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:229 superset/viz.py:1252
@@ -506,8 +507,7 @@ msgstr ""
 
 #: superset/viz.py:1620
 msgid ""
-"There's a loop in your Sankey, please provide a tree. Here's a faulty "
-"link: {}"
+"There's a loop in your Sankey, please provide a tree. Here's a faulty link: {}"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1361 superset/viz.py:1631
@@ -852,10 +852,10 @@ msgid "Label for your query"
 msgstr ""
 
 #: superset/assets/src/SqlLab/components/SaveQuery.jsx:82
-#: superset/connectors/druid/views.py:134
-#: superset/connectors/druid/views.py:258 superset/connectors/sqla/views.py:85
-#: superset/connectors/sqla/views.py:132 superset/connectors/sqla/views.py:238
-#: superset/views/core.py:461 superset/views/sql_lab.py:62
+#: superset/connectors/druid/views.py:134 superset/connectors/druid/views.py:258
+#: superset/connectors/sqla/views.py:85 superset/connectors/sqla/views.py:132
+#: superset/connectors/sqla/views.py:238 superset/views/core.py:461
+#: superset/views/sql_lab.py:62
 msgid "Description"
 msgstr ""
 
@@ -1074,8 +1074,8 @@ msgstr ""
 
 #: superset/assets/src/addSlice/AddSliceContainer.jsx:75
 msgid ""
-"If the datasource your are looking for is not available in the list, "
-"follow the instructions on the how to add it on the "
+"If the datasource your are looking for is not available in the list, follow the "
+"instructions on the how to add it on the "
 msgstr ""
 
 #: superset/assets/src/addSlice/AddSliceContainer.jsx:79
@@ -1114,10 +1114,10 @@ msgstr ""
 
 #: superset/assets/src/chart/chartReducer.js:75
 msgid ""
-"Perhaps your data has grown, your database is under unusual load, or you "
-"are simply querying a data source that is too large to be processed "
-"within the timeout range. If that is the case, we recommend that you "
-"summarize your data further."
+"Perhaps your data has grown, your database is under unusual load, or you are "
+"simply querying a data source that is too large to be processed within the "
+"timeout range. If that is the case, we recommend that you summarize your data "
+"further."
 msgstr ""
 
 #: superset/assets/src/chart/chartReducer.js:84
@@ -1172,8 +1172,8 @@ msgstr ""
 msgid "Copied!"
 msgstr ""
 
-#: superset/assets/src/components/EditableTitle.jsx:14
-#: superset/views/core.py:571 superset/views/core.py:641
+#: superset/assets/src/components/EditableTitle.jsx:14 superset/views/core.py:571
+#: superset/views/core.py:641
 msgid "Title"
 msgstr ""
 
@@ -1514,9 +1514,9 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:215
 msgid ""
-"Bounds for the Y axis. When left empty, the bounds are dynamically "
-"defined based on the min/max of the data. Note that this feature will "
-"only expand the axis range. It won't narrow the data's extent."
+"Bounds for the Y axis. When left empty, the bounds are dynamically defined "
+"based on the min/max of the data. Note that this feature will only expand the "
+"axis range. It won't narrow the data's extent."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:224
@@ -1546,8 +1546,8 @@ msgstr ""
 #: superset/assets/src/explore/controls.jsx:256
 #: superset/assets/src/explore/controls.jsx:264
 msgid ""
-" Set the opacity to 0 if you do not want to override the color specified "
-"in the GeoJSON"
+" Set the opacity to 0 if you do not want to override the color specified in the "
+"GeoJSON"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:263
@@ -1584,8 +1584,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:340
 msgid ""
-"Color will be rendered based on a ratio of the cell against the sum of "
-"across this criteria"
+"Color will be rendered based on a ratio of the cell against the sum of across "
+"this criteria"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:347
@@ -1602,8 +1602,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:366
 msgid ""
-"image-rendering CSS attribute of the canvas object that defines how the "
-"browser scales up the image"
+"image-rendering CSS attribute of the canvas object that defines how the browser "
+"scales up the image"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:372
@@ -1688,8 +1688,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:459
 msgid ""
-"Display metrics side by side within each column, as opposed to each "
-"column being displayed side by side for each metric."
+"Display metrics side by side within each column, as opposed to each column "
+"being displayed side by side for each metric."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:465
@@ -1698,8 +1698,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:468
 msgid ""
-"Whether to show extra controls or not. Extra controls include things like"
-" making mulitBar charts stacked or side by side."
+"Whether to show extra controls or not. Extra controls include things like "
+"making mulitBar charts stacked or side by side."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:475
@@ -1708,10 +1708,9 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:478
 msgid ""
-"Reduces the number of X axis ticks to be rendered. If true, the x axis "
-"wont overflow and labels may be missing. If false, a minimum width will "
-"be applied to columns and the width may overflow into an horizontal "
-"scroll."
+"Reduces the number of X axis ticks to be rendered. If true, the x axis wont "
+"overflow and labels may be missing. If false, a minimum width will be applied "
+"to columns and the width may overflow into an horizontal scroll."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:487
@@ -1744,8 +1743,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:533
 msgid ""
-"The country code standard that Superset should expect to find in the "
-"[country] column"
+"The country code standard that Superset should expect to find in the [country] "
+"column"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:539
@@ -1833,8 +1832,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:655
 msgid ""
-"Select the polygon column. Each row should contain JSON.array(N) of "
-"[longitude, latitude] points"
+"Select the polygon column. Each row should contain JSON.array(N) of [longitude, "
+"latitude] points"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:664
@@ -1851,8 +1850,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:708
 msgid ""
-"Defines the origin where time buckets start, accepts natural dates as in "
-"`now`, `sunday` or `1970-01-01`"
+"Defines the origin where time buckets start, accepts natural dates as in `now`, "
+"`sunday` or `1970-01-01`"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:716
@@ -1885,8 +1884,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:765
 msgid ""
-"The time granularity for the visualization. Note that you can type and "
-"use simple natural language as in `10 seconds`, `1 day` or `56 weeks`"
+"The time granularity for the visualization. Note that you can type and use "
+"simple natural language as in `10 seconds`, `1 day` or `56 weeks`"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:772
@@ -1903,8 +1902,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:783
 msgid ""
-"The time unit for each block. Should be a smaller unit than "
-"domain_granularity. Should be larger or equal to Time Grain"
+"The time unit for each block. Should be a smaller unit than domain_granularity. "
+"Should be larger or equal to Time Grain"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:790
@@ -1925,9 +1924,9 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:819
 msgid ""
-"The time column for the visualization. Note that you can define arbitrary"
-" expression that return a DATETIME column in the table. Also note that "
-"the filter below is applied against this column or expression"
+"The time column for the visualization. Note that you can define arbitrary "
+"expression that return a DATETIME column in the table. Also note that the "
+"filter below is applied against this column or expression"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:845
@@ -1936,10 +1935,9 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:847
 msgid ""
-"The time granularity for the visualization. This applies a date "
-"transformation to alter your time column and defines a new time "
-"granularity. The options here are defined on a per database engine basis "
-"in the Superset source code."
+"The time granularity for the visualization. This applies a date transformation "
+"to alter your time column and defines a new time granularity. The options here "
+"are defined on a per database engine basis in the Superset source code."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:860
@@ -2017,10 +2015,10 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:954
 msgid ""
-"Limits the number of time series that get displayed. A sub query (or an "
-"extra phase where sub queries are not supported) is applied to limit the "
-"number of time series that get fetched and displayed. This feature is "
-"useful when grouping by high cardinality dimension(s)."
+"Limits the number of time series that get displayed. A sub query (or an extra "
+"phase where sub queries are not supported) is applied to limit the number of "
+"time series that get fetched and displayed. This feature is useful when "
+"grouping by high cardinality dimension(s)."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:963
@@ -2045,8 +2043,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:983
 msgid ""
-"Defines a rolling window function to apply, works along with the "
-"[Periods] text box"
+"Defines a rolling window function to apply, works along with the [Periods] text "
+"box"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:989
@@ -2113,11 +2111,10 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1057
 msgid ""
-"The minimum number of rolling periods required to show a value. For "
-"instance if you do a cumulative sum on 7 days you may want your \"Min "
-"Period\" to be 7, so that all data points shown are the total of 7 "
-"periods. This will hide the \"ramp up\" taking place over the first 7 "
-"periods"
+"The minimum number of rolling periods required to show a value. For instance if "
+"you do a cumulative sum on 7 days you may want your \"Min Period\" to be 7, so "
+"that all data points shown are the total of 7 periods. This will hide the "
+"\"ramp up\" taking place over the first 7 periods"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1066
@@ -2127,8 +2124,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1068
 msgid ""
-"Defines the grouping of entities. Each series is shown as a specific "
-"color on the chart and has a legend toggle"
+"Defines the grouping of entities. Each series is shown as a specific color on "
+"the chart and has a legend toggle"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1078
@@ -2179,8 +2176,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1110
 msgid ""
-"The URL, this control is templated, so you can integrate {{ width }} "
-"and/or {{ height }} in your URL string."
+"The URL, this control is templated, so you can integrate {{ width }} and/or "
+"{{ height }} in your URL string."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1117
@@ -2197,9 +2194,9 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1137
 msgid ""
-"The text in this box gets included in your query's WHERE clause, as an "
-"AND to other criteria. You can include complex expression, parenthesis "
-"and anything else supported by the backend it is directed towards."
+"The text in this box gets included in your query's WHERE clause, as an AND to "
+"other criteria. You can include complex expression, parenthesis and anything "
+"else supported by the backend it is directed towards."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1145
@@ -2208,9 +2205,9 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1151
 msgid ""
-"The text in this box gets included in your query's HAVING clause, as an "
-"AND to other criteria. You can include complex expression, parenthesis "
-"and anything else supported by the backend it is directed towards."
+"The text in this box gets included in your query's HAVING clause, as an AND to "
+"other criteria. You can include complex expression, parenthesis and anything "
+"else supported by the backend it is directed towards."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1159
@@ -2322,8 +2319,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1328
 msgid ""
-"Aggregate function to apply when pivoting and computing the total rows "
-"and columns"
+"Aggregate function to apply when pivoting and computing the total rows and "
+"columns"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1335
@@ -2558,8 +2555,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1573
 msgid ""
-"`factor` means (new/previous), `growth` is ((new/previous) - 1), `value` "
-"is (new-previous)"
+"`factor` means (new/previous), `growth` is ((new/previous) - 1), `value` is "
+"(new-previous)"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1581
@@ -2568,9 +2565,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1590
 msgid ""
-"Overlay one or more timeseries from a relative time period. Expects "
-"relative time deltas in natural language (example:  24 hours, 7 days, 56 "
-"weeks, 365 days)"
+"Overlay one or more timeseries from a relative time period. Expects relative "
+"time deltas in natural language (example:  24 hours, 7 days, 56 weeks, 365 days)"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1598
@@ -2587,9 +2583,9 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1607
 msgid ""
-"`count` is COUNT(*) if a group by is used. Numerical columns will be "
-"aggregated with the aggregator. Non-numerical columns will be used to "
-"label points. Leave empty to get a count of points in each cluster."
+"`count` is COUNT(*) if a group by is used. Numerical columns will be aggregated "
+"with the aggregator. Non-numerical columns will be used to label points. Leave "
+"empty to get a count of points in each cluster."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1618
@@ -2606,9 +2602,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1649
 msgid ""
-"The radius (in pixels) the algorithm uses to define a cluster. Choose 0 "
-"to turn off clustering, but beware that a large number of points (>1000) "
-"will cause lag."
+"The radius (in pixels) the algorithm uses to define a cluster. Choose 0 to turn "
+"off clustering, but beware that a large number of points (>1000) will cause lag."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1656
@@ -2626,9 +2621,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1668
 msgid ""
-"The radius of individual points (ones that are not in a cluster). Either "
-"a numerical column or `Auto`, which scales the point based on the largest"
-" cluster"
+"The radius of individual points (ones that are not in a cluster). Either a "
+"numerical column or `Auto`, which scales the point based on the largest cluster"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1678
@@ -2779,8 +2773,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1880
 msgid ""
-"Important! Select this if the table is not already sorted by entity id, "
-"else there is no guarantee that all events for each entity are returned."
+"Important! Select this if the table is not already sorted by entity id, else "
+"there is no guarantee that all events for each entity are returned."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1888
@@ -2789,8 +2783,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1891
 msgid ""
-"Leaf nodes that represent fewer than this number of events will be "
-"initially hidden in the visualization"
+"Leaf nodes that represent fewer than this number of events will be initially "
+"hidden in the visualization"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1897
@@ -2836,8 +2830,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1936
 msgid ""
-"Check if the Rose Chart should use segment area instead of segment radius"
-" for proportioning"
+"Check if the Rose Chart should use segment area instead of segment radius for "
+"proportioning"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1946
@@ -2933,8 +2927,7 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2011
 msgid ""
-"The maximum number of subdivisions of each group; lower values are pruned"
-" first"
+"The maximum number of subdivisions of each group; lower values are pruned first"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2017
@@ -2943,8 +2936,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2023
 msgid ""
-"Minimum radius size of the circle, in pixels. As the zoom level changes, "
-"this insures that the circle respects this minimum radius."
+"Minimum radius size of the circle, in pixels. As the zoom level changes, this "
+"insures that the circle respects this minimum radius."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2029
@@ -2953,8 +2946,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2035
 msgid ""
-"Maxium radius size of the circle, in pixels. As the zoom level changes, "
-"this insures that the circle respects this maximum radius."
+"Maxium radius size of the circle, in pixels. As the zoom level changes, this "
+"insures that the circle respects this maximum radius."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2041
@@ -2963,8 +2956,8 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2045
 msgid ""
-"Partitions whose height to parent height proportions are below this value"
-" are pruned"
+"Partitions whose height to parent height proportions are below this value are "
+"pruned"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2051
@@ -3042,9 +3035,8 @@ msgstr ""
 #: superset/assets/src/explore/controls.jsx:2149
 msgid ""
 "Define a javascript function that receives the data array used in the "
-"visualization and is expected to return a modified version of that array."
-" This can be used to alter properties of the data, filter, or enrich the "
-"array."
+"visualization and is expected to return a modified version of that array. This "
+"can be used to alter properties of the data, filter, or enrich the array."
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2155
@@ -3053,8 +3045,7 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2156
 msgid ""
-"Define a function that receives intercepts the data objects and can "
-"mutate it"
+"Define a function that receives intercepts the data objects and can mutate it"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2160
@@ -3063,8 +3054,7 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2161
 msgid ""
-"Define a function that receives the input and outputs the content for a "
-"tooltip"
+"Define a function that receives the input and outputs the content for a tooltip"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2165
@@ -3190,8 +3180,8 @@ msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:92
 msgid ""
-"The filters to apply after post-aggregation.Leave the value control empty"
-" to filter empty strings or nulls"
+"The filters to apply after post-aggregation.Leave the value control empty to "
+"filter empty strings or nulls"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:126
@@ -3379,8 +3369,8 @@ msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:944
 msgid ""
-"Templated link, it's possible to include {{ metric }} or other values "
-"coming from the controls."
+"Templated link, it's possible to include {{ metric }} or other values coming "
+"from the controls."
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:978
@@ -3429,9 +3419,8 @@ msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1321
 msgid ""
-"[optional] this secondary metric is used to define the color as a ratio "
-"against the primary metric. When omitted, the color is categorical and "
-"based on labels"
+"[optional] this secondary metric is used to define the color as a ratio against "
+"the primary metric. When omitted, the color is categorical and based on labels"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1326
@@ -3542,8 +3531,8 @@ msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1596
 msgid ""
-"Hard value bounds applied for color coding. Is only relevant and applied "
-"when the normalization is applied against the whole heatmap."
+"Hard value bounds applied for color coding. Is only relevant and applied when "
+"the normalization is applied against the whole heatmap."
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1601
@@ -3580,8 +3569,8 @@ msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1675
 msgid ""
-"Aggregate function applied to the list of points in each cluster to "
-"produce the cluster label."
+"Aggregate function applied to the list of points in each cluster to produce the "
+"cluster label."
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1679
@@ -3594,8 +3583,8 @@ msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1684
 msgid ""
-"One or many controls to group by. If grouping, latitude and longitude "
-"columns must be present."
+"One or many controls to group by. If grouping, latitude and longitude columns "
+"must be present."
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1695
@@ -3864,8 +3853,7 @@ msgstr ""
 
 #: superset/assets/src/explore/components/controls/SpatialControl.jsx:145
 msgid ""
-"Multiple formats accepted, look the geopy.points Python library for more "
-"details"
+"Multiple formats accepted, look the geopy.points Python library for more details"
 msgstr ""
 
 #: superset/assets/src/explore/components/controls/SpatialControl.jsx:157
@@ -3893,8 +3881,7 @@ msgid "Select a visualization type"
 msgstr ""
 
 #: superset/assets/src/profile/components/App.jsx:24
-#: superset/assets/src/welcome/App.jsx:56
-#: superset/assets/src/welcome/App.jsx:59
+#: superset/assets/src/welcome/App.jsx:56 superset/assets/src/welcome/App.jsx:59
 msgid "Favorites"
 msgstr ""
 
@@ -3920,9 +3907,8 @@ msgstr ""
 
 #: superset/assets/src/profile/components/CreatedContent.jsx:58
 #: superset/assets/src/profile/components/Favorites.jsx:59
-#: superset/assets/src/welcome/App.jsx:28
-#: superset/assets/src/welcome/App.jsx:31 superset/views/core.py:459
-#: superset/views/core.py:628
+#: superset/assets/src/welcome/App.jsx:28 superset/assets/src/welcome/App.jsx:31
+#: superset/views/core.py:459 superset/views/core.py:628
 msgid "Dashboards"
 msgstr ""
 
@@ -3947,7 +3933,7 @@ msgstr ""
 #: superset/assets/src/profile/components/Security.jsx:23
 #: superset/views/core.py:313
 msgid "Databases"
-msgstr ""
+msgstr "Veritabanları"
 
 #: superset/assets/src/profile/components/Security.jsx:34
 msgid "Datasources"
@@ -3994,8 +3980,7 @@ msgstr ""
 msgid "You cannot use 45° tick layout along with the time range filter"
 msgstr ""
 
-#: superset/assets/src/welcome/App.jsx:47
-#: superset/assets/src/welcome/App.jsx:50
+#: superset/assets/src/welcome/App.jsx:47 superset/assets/src/welcome/App.jsx:50
 msgid "Recently Viewed"
 msgstr ""
 
@@ -4054,8 +4039,7 @@ msgstr ""
 
 #: superset/connectors/druid/views.py:61 superset/connectors/sqla/views.py:52
 msgid ""
-"Whether this column is exposed in the `Filters` section of the explore "
-"view."
+"Whether this column is exposed in the `Filters` section of the explore view."
 msgstr ""
 
 #: superset/connectors/druid/views.py:107
@@ -4076,9 +4060,9 @@ msgstr ""
 
 #: superset/connectors/druid/views.py:127 superset/connectors/sqla/views.py:116
 msgid ""
-"Whether the access to this metric is restricted to certain roles. Only "
-"roles with the permission 'metric access on XXX (the name of this "
-"metric)' are allowed to access this metric"
+"Whether the access to this metric is restricted to certain roles. Only roles "
+"with the permission 'metric access on XXX (the name of this metric)' are "
+"allowed to access this metric"
 msgstr ""
 
 #: superset/connectors/druid/views.py:135 superset/connectors/sqla/views.py:84
@@ -4114,8 +4098,7 @@ msgstr ""
 msgid "Edit Druid Cluster"
 msgstr ""
 
-#: superset/connectors/druid/views.py:171
-#: superset/connectors/druid/views.py:257
+#: superset/connectors/druid/views.py:171 superset/connectors/druid/views.py:257
 msgid "Cluster"
 msgstr ""
 
@@ -4135,11 +4118,10 @@ msgstr ""
 msgid "Druid Clusters"
 msgstr ""
 
-#: superset/connectors/druid/views.py:196
-#: superset/connectors/druid/views.py:298
-#: superset/connectors/druid/views.py:347
-#: superset/connectors/druid/views.py:355 superset/connectors/sqla/views.py:315
-#: superset/views/core.py:316 superset/views/core.py:2771
+#: superset/connectors/druid/views.py:196 superset/connectors/druid/views.py:298
+#: superset/connectors/druid/views.py:347 superset/connectors/druid/views.py:355
+#: superset/connectors/sqla/views.py:315 superset/views/core.py:316
+#: superset/views/core.py:2771
 msgid "Sources"
 msgstr ""
 
@@ -4161,11 +4143,11 @@ msgstr ""
 
 #: superset/connectors/druid/views.py:226 superset/connectors/sqla/views.py:182
 msgid ""
-"The list of charts associated with this table. By altering this "
-"datasource, you may change how these associated charts behave. Also note "
-"that charts need to point to a datasource, so this form will fail at "
-"saving if removing charts from a datasource. If you want to change the "
-"datasource for a chart, overwrite the chart from the 'explore view'"
+"The list of charts associated with this table. By altering this datasource, you "
+"may change how these associated charts behave. Also note that charts need to "
+"point to a datasource, so this form will fail at saving if removing charts from "
+"a datasource. If you want to change the datasource for a chart, overwrite the "
+"chart from the 'explore view'"
 msgstr ""
 
 #: superset/connectors/druid/views.py:234 superset/connectors/sqla/views.py:190
@@ -4175,22 +4157,21 @@ msgstr ""
 #: superset/connectors/druid/views.py:238
 msgid ""
 "Time expression to use as a predicate when retrieving distinct values to "
-"populate the filter component. Only applies when `Enable Filter Select` "
-"is on. If you enter `7 days ago`, the distinct list of values in the "
-"filter will be populated based on the distinct value over the past week"
+"populate the filter component. Only applies when `Enable Filter Select` is on. "
+"If you enter `7 days ago`, the distinct list of values in the filter will be "
+"populated based on the distinct value over the past week"
 msgstr ""
 
 #: superset/connectors/druid/views.py:245 superset/connectors/sqla/views.py:212
 msgid ""
-"Whether to populate the filter's dropdown in the explore view's filter "
-"section with a list of distinct values fetched from the backend on the "
-"fly"
+"Whether to populate the filter's dropdown in the explore view's filter section "
+"with a list of distinct values fetched from the backend on the fly"
 msgstr ""
 
 #: superset/connectors/druid/views.py:249
 msgid ""
-"Redirects to this endpoint when clicking on the datasource from the "
-"datasource list"
+"Redirects to this endpoint when clicking on the datasource from the datasource "
+"list"
 msgstr ""
 
 #: superset/connectors/druid/views.py:255 superset/connectors/sqla/views.py:224
@@ -4240,8 +4221,8 @@ msgstr ""
 
 #: superset/connectors/sqla/models.py:527
 msgid ""
-"Datetime column not provided as part table configuration and is required "
-"by this type of chart"
+"Datetime column not provided as part table configuration and is required by "
+"this type of chart"
 msgstr ""
 
 #: superset/connectors/sqla/models.py:531
@@ -4254,8 +4235,8 @@ msgstr ""
 
 #: superset/connectors/sqla/models.py:762
 msgid ""
-"Table [{}] doesn't seem to exist in the specified database, couldn't "
-"fetch column information"
+"Table [{}] doesn't seem to exist in the specified database, couldn't fetch "
+"column information"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:30
@@ -4276,15 +4257,15 @@ msgstr ""
 
 #: superset/connectors/sqla/views.py:48
 msgid ""
-"Whether to make this column available as a [Time Granularity] option, "
-"column has to be DATETIME or DATETIME-like"
+"Whether to make this column available as a [Time Granularity] option, column "
+"has to be DATETIME or DATETIME-like"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:55
 msgid ""
-"The data type that was inferred by the database. It may be necessary to "
-"input a type manually for expression-defined columns in some cases. In "
-"most case users should not need to alter this."
+"The data type that was inferred by the database. It may be necessary to input a "
+"type manually for expression-defined columns in some cases. In most case users "
+"should not need to alter this."
 msgstr ""
 
 #: superset/connectors/sqla/views.py:89
@@ -4363,9 +4344,9 @@ msgstr ""
 
 #: superset/connectors/sqla/views.py:203
 msgid ""
-"Predicate applied when fetching distinct value to populate the filter "
-"control component. Supports jinja template syntax. Applies only when "
-"`Enable Filter Select` is on."
+"Predicate applied when fetching distinct value to populate the filter control "
+"component. Supports jinja template syntax. Applies only when `Enable Filter "
+"Select` is on."
 msgstr ""
 
 #: superset/connectors/sqla/views.py:209
@@ -4378,8 +4359,8 @@ msgstr ""
 
 #: superset/connectors/sqla/views.py:219
 msgid ""
-"A set of parameters that become available in the query using Jinja "
-"templating syntax"
+"A set of parameters that become available in the query using Jinja templating "
+"syntax"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:226
@@ -4412,14 +4393,14 @@ msgstr ""
 
 #: superset/connectors/sqla/views.py:257
 msgid ""
-"Table [{}] could not be found, please double check your database "
-"connection, schema, and table name"
+"Table [{}] could not be found, please double check your database connection, "
+"schema, and table name"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:270
 msgid ""
-"The table was created. As part of this two phase configuration process, "
-"you should now click the edit button by the new table to configure it."
+"The table was created. As part of this two phase configuration process, you "
+"should now click the edit button by the new table to configure it."
 msgstr ""
 
 #: superset/connectors/sqla/views.py:293
@@ -4546,8 +4527,7 @@ msgstr ""
 #: superset/views/core.py:90
 #, python-format
 msgid ""
-"This view requires the database %(name)s or `all_datasource_access` "
-"permission"
+"This view requires the database %(name)s or `all_datasource_access` permission"
 msgstr ""
 
 #: superset/views/core.py:95
@@ -4579,15 +4559,14 @@ msgstr ""
 
 #: superset/views/core.py:234
 msgid ""
-"Allow users to run synchronous queries, this is the default and should "
-"work well for queries that can be executed within a web request scope "
-"(<~1 minute)"
+"Allow users to run synchronous queries, this is the default and should work "
+"well for queries that can be executed within a web request scope (<~1 minute)"
 msgstr ""
 
 #: superset/views/core.py:238
 msgid ""
-"Allow users to run queries, against an async backend. This assumes that "
-"you have a Celery worker setup as well as a results backend."
+"Allow users to run queries, against an async backend. This assumes that you "
+"have a Celery worker setup as well as a results backend."
 msgstr ""
 
 #: superset/views/core.py:242
@@ -4596,30 +4575,29 @@ msgstr ""
 
 #: superset/views/core.py:243
 msgid ""
-"Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...) in"
-" SQL Lab"
+"Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...) in SQL "
+"Lab"
 msgstr ""
 
 #: superset/views/core.py:247
 msgid ""
-"When allowing CREATE TABLE AS option in SQL Lab, this option forces the "
-"table to be created in this schema"
+"When allowing CREATE TABLE AS option in SQL Lab, this option forces the table "
+"to be created in this schema"
 msgstr ""
 
 #: superset/views/core.py:259
 msgid ""
-"If Presto, all the queries in SQL Lab are going to be executed as the "
-"currently logged on user who must have permission to run them.<br/>If "
-"Hive and hive.server2.enable.doAs is enabled, will run the queries as "
-"service account, but impersonate the currently logged on user via "
-"hive.server2.proxy.user property."
+"If Presto, all the queries in SQL Lab are going to be executed as the currently "
+"logged on user who must have permission to run them.<br/>If Hive and hive."
+"server2.enable.doAs is enabled, will run the queries as service account, but "
+"impersonate the currently logged on user via hive.server2.proxy.user property."
 msgstr ""
 
 #: superset/views/core.py:265
 msgid ""
-"Allow SQL Lab to fetch a list of all tables and all views across all "
-"database schemas. For large data warehouse with thousands of tables, this"
-" can be expensive and put strain on the system."
+"Allow SQL Lab to fetch a list of all tables and all views across all database "
+"schemas. For large data warehouse with thousands of tables, this can be "
+"expensive and put strain on the system."
 msgstr ""
 
 #: superset/views/core.py:271
@@ -4722,10 +4700,9 @@ msgstr ""
 
 #: superset/views/core.py:446
 msgid ""
-"These parameters are generated dynamically when clicking the save or "
-"overwrite button in the explore view. This JSON object is exposed here "
-"for reference and for power users who may want to alter specific "
-"parameters."
+"These parameters are generated dynamically when clicking the save or overwrite "
+"button in the explore view. This JSON object is exposed here for reference and "
+"for power users who may want to alter specific parameters."
 msgstr ""
 
 #: superset/views/core.py:452
@@ -4766,15 +4743,15 @@ msgstr ""
 
 #: superset/views/core.py:547
 msgid ""
-"This json object describes the positioning of the widgets in the "
-"dashboard. It is dynamically generated when adjusting the widgets size "
-"and positions by using drag & drop in the dashboard view"
+"This json object describes the positioning of the widgets in the dashboard. It "
+"is dynamically generated when adjusting the widgets size and positions by using "
+"drag & drop in the dashboard view"
 msgstr ""
 
 #: superset/views/core.py:552
 msgid ""
-"The css for individual dashboards can be altered here, or in the "
-"dashboard view where changes are immediately visible"
+"The css for individual dashboards can be altered here, or in the dashboard view "
+"where changes are immediately visible"
 msgstr ""
 
 #: superset/views/core.py:556
@@ -4783,9 +4760,9 @@ msgstr ""
 
 #: superset/views/core.py:557
 msgid ""
-"This JSON object is generated dynamically when clicking the save or "
-"overwrite button in the dashboard view. It is exposed here for reference "
-"and for power users who may want to alter specific parameters."
+"This JSON object is generated dynamically when clicking the save or overwrite "
+"button in the dashboard view. It is exposed here for reference and for power "
+"users who may want to alter specific parameters."
 msgstr ""
 
 #: superset/views/core.py:562
@@ -4839,8 +4816,7 @@ msgstr ""
 #: superset/views/core.py:935
 #, python-format
 msgid ""
-"%(user)s was granted the role %(role)s that gives access to the "
-"%(datasource)s"
+"%(user)s was granted the role %(role)s that gives access to the %(datasource)s"
 msgstr ""
 
 #: superset/views/core.py:951
@@ -4875,8 +4851,7 @@ msgstr ""
 
 #: superset/views/core.py:1955
 msgid ""
-"Malformed request. slice_id or table_name and db_name arguments are "
-"expected"
+"Malformed request. slice_id or table_name and db_name arguments are expected"
 msgstr ""
 
 #: superset/views/core.py:1961
@@ -4970,4 +4945,3 @@ msgstr ""
 #: superset/views/sql_lab.py:86
 msgid "Saved Queries"
 msgstr ""
-
