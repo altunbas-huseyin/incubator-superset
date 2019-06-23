@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-06-07 00:22-0700\n"
-"PO-Revision-Date: 2019-06-23 15:06+0300\n"
+"PO-Revision-Date: 2019-06-23 15:33+0300\n"
 "Language: tr\n"
 "Language-Team: tr <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -42,7 +42,7 @@ msgstr ""
 #: superset/db_engine_specs.py:1365 superset/db_engine_specs.py:1395
 #: superset/db_engine_specs.py:1413
 msgid "Time Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/db_engine_specs.py:344 superset/db_engine_specs.py:394
 #: superset/db_engine_specs.py:448 superset/db_engine_specs.py:562
@@ -120,7 +120,7 @@ msgstr ""
 #: superset/db_engine_specs.py:1372 superset/db_engine_specs.py:1403
 #: superset/db_engine_specs.py:1437
 msgid "year"
-msgstr ""
+msgstr "yıl"
 
 #: superset/db_engine_specs.py:513 superset/db_engine_specs.py:647
 #: superset/db_engine_specs.py:1254
@@ -149,24 +149,27 @@ msgid "10 minute"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:234 superset/forms.py:56
+#, fuzzy
 msgid "Table Name"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/forms.py:57
 msgid "Name of table to be created from csv data."
 msgstr ""
 
 #: superset/forms.py:61
+#, fuzzy
 msgid "CSV File"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/forms.py:62
 msgid "Select a CSV file to be uploaded to a database."
 msgstr ""
 
 #: superset/forms.py:64
+#, fuzzy
 msgid "CSV Files Only!"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/connectors/sqla/views.py:227 superset/forms.py:66
 #: superset/views/core.py:275 superset/views/sql_lab.py:24
@@ -183,8 +186,9 @@ msgid "Delimiter used by CSV file (for whitespace use \\s+)."
 msgstr ""
 
 #: superset/forms.py:75
+#, fuzzy
 msgid "Table Exists"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/forms.py:76
 msgid ""
@@ -223,8 +227,9 @@ msgid ""
 msgstr ""
 
 #: superset/forms.py:100
+#, fuzzy
 msgid "Index Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/forms.py:101
 msgid ""
@@ -305,8 +310,9 @@ msgid "Write dataframe index as a column."
 msgstr ""
 
 #: superset/forms.py:151
+#, fuzzy
 msgid "Column Label(s)"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/forms.py:152
 msgid ""
@@ -328,8 +334,9 @@ msgid "From date cannot be larger than to date"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:881 superset/viz.py:483
+#, fuzzy
 msgid "Table View"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/viz.py:495
 msgid "Pick a granularity in the Time section or uncheck 'Include Time'"
@@ -340,8 +347,9 @@ msgid "Choose either fields to [Group By] and [Metrics] or [Columns], not both"
 msgstr ""
 
 #: superset/viz.py:587
+#, fuzzy
 msgid "Time Table View"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/viz.py:596 superset/viz.py:1495
 msgid "Pick at least one metric"
@@ -352,8 +360,9 @@ msgid "When using 'Group By' you are limited to use a single metric"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:966 superset/viz.py:628
+#, fuzzy
 msgid "Pivot Table"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/viz.py:642
 msgid "Please choose at least one 'Group by' field "
@@ -466,8 +475,9 @@ msgid "Time Series - Percent Change"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:835 superset/viz.py:1413
+#, fuzzy
 msgid "Time Series - Stacked"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/viz.py:1422
 msgid "Distribution - NVD3 - Pie Chart"
@@ -782,8 +792,9 @@ msgid "Remove query from log"
 msgstr ""
 
 #: superset/assets/src/SqlLab/components/ResultSet.jsx:67
+#, fuzzy
 msgid ".CSV"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/assets/src/SqlLab/components/ResultSet.jsx:78
 #: superset/assets/src/SqlLab/components/VisualizeModal.jsx:247
@@ -794,8 +805,9 @@ msgstr ""
 #: superset/assets/src/SqlLab/components/ResultSet.jsx:163
 #: superset/connectors/sqla/views.py:88 superset/connectors/sqla/views.py:136
 #: superset/connectors/sqla/views.py:225 superset/views/core.py:467
+#, fuzzy
 msgid "Table"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/SqlLab/components/ResultSet.jsx:163
 msgid "was created"
@@ -906,8 +918,9 @@ msgid "Create table as with query results"
 msgstr ""
 
 #: superset/assets/src/SqlLab/components/SqlEditor.jsx:173
+#, fuzzy
 msgid "new table name"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/SqlLab/components/SqlEditorLeftBar.jsx:91
 msgid "Error while fetching table list"
@@ -922,8 +935,9 @@ msgid "Type to search ..."
 msgstr ""
 
 #: superset/assets/src/SqlLab/components/SqlEditorLeftBar.jsx:148
+#, fuzzy
 msgid "Select table "
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/SqlLab/components/SqlEditorLeftBar.jsx:162
 msgid "Error while fetching database list"
@@ -947,9 +961,9 @@ msgid "Schema:"
 msgstr ""
 
 #: superset/assets/src/SqlLab/components/SqlEditorLeftBar.jsx:198
-#, python-format
+#, fuzzy, python-format
 msgid "Add a table (%s)"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/SqlLab/components/SqlEditorLeftBar.jsx:234
 msgid "Reset State"
@@ -989,8 +1003,9 @@ msgid "latest partition:"
 msgstr ""
 
 #: superset/assets/src/SqlLab/components/TableElement.jsx:110
+#, fuzzy
 msgid "Keys for table"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/SqlLab/components/TableElement.jsx:119
 #, python-format
@@ -1010,8 +1025,9 @@ msgid "Copy SELECT statement to clipboard"
 msgstr ""
 
 #: superset/assets/src/SqlLab/components/TableElement.jsx:152
+#, fuzzy
 msgid "Remove table preview"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/SqlLab/components/TemplateParamsEditor.jsx:102
 msgid "Template Parameters"
@@ -1175,11 +1191,12 @@ msgstr ""
 #: superset/assets/src/components/EditableTitle.jsx:14 superset/views/core.py:571
 #: superset/views/core.py:641
 msgid "Title"
-msgstr ""
+msgstr "Başlık"
 
 #: superset/assets/src/components/EditableTitle.jsx:105
+#, fuzzy
 msgid "click to edit title"
-msgstr ""
+msgstr "Başlık"
 
 #: superset/assets/src/components/EditableTitle.jsx:106
 msgid "You don't have the rights to alter this title."
@@ -1400,7 +1417,7 @@ msgstr ""
 #: superset/views/core.py:576 superset/views/core.py:643
 #: superset/views/sql_lab.py:63
 msgid "Modified"
-msgstr ""
+msgstr "Güncelleme"
 
 #: superset/assets/src/dashboard/components/SliceAdder.jsx:205
 msgid "Add a new chart to the dashboard"
@@ -1441,7 +1458,7 @@ msgstr ""
 
 #: superset/assets/src/dashboard/components/SliceHeader.jsx:148
 msgid "Export CSV"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/assets/src/dashboard/components/SliceHeader.jsx:158
 msgid "Explore chart"
@@ -1623,8 +1640,9 @@ msgid "Number of steps to take between ticks when displaying the Y scale"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:394
+#, fuzzy
 msgid "Include Time"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:395
 msgid "Whether to include the time granularity as defined in the time section"
@@ -1694,7 +1712,7 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:465
 msgid "Extra Controls"
-msgstr ""
+msgstr "Ekstra Kontroller"
 
 #: superset/assets/src/explore/controls.jsx:468
 msgid ""
@@ -1806,8 +1824,9 @@ msgid "Longitude"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:624
+#, fuzzy
 msgid "Select the longitude column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:632
 #: superset/assets/src/explore/visTypes.js:1670
@@ -1815,20 +1834,24 @@ msgid "Latitude"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:635
+#, fuzzy
 msgid "Select the latitude column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:643
+#, fuzzy
 msgid "GeoJson Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:645
+#, fuzzy
 msgid "Select the geojson column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:653
+#, fuzzy
 msgid "Polygon Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:655
 msgid ""
@@ -1879,8 +1902,9 @@ msgid "Left margin, in pixels, allowing for more room for axis labels"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:747
+#, fuzzy
 msgid "Time Granularity"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:765
 msgid ""
@@ -1930,8 +1954,9 @@ msgid ""
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:845
+#, fuzzy
 msgid "Time Grain"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:847
 msgid ""
@@ -1971,7 +1996,7 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:888
 msgid "7 days ago"
-msgstr ""
+msgstr "7 gün önce"
 
 #: superset/assets/src/explore/controls.jsx:894
 #: superset/assets/src/visualizations/filter_box.jsx:123
@@ -2227,8 +2252,9 @@ msgid "Suffix to apply after the percentage display"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1173
+#, fuzzy
 msgid "Table Timestamp Format"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/explore/controls.jsx:1179
 msgid "Timestamp Format"
@@ -2268,8 +2294,9 @@ msgid "Right Axis Format"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1254
+#, fuzzy
 msgid "Date Time Format"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1263
 msgid "Markup Type"
@@ -2348,8 +2375,9 @@ msgid "Extruded"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1369
+#, fuzzy
 msgid "Show Range Filter"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/explore/controls.jsx:1378
 msgid "Whether to display the time range interactive selector"
@@ -2357,7 +2385,7 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1383
 msgid "Date Filter"
-msgstr ""
+msgstr "Tarih Filtresi"
 
 #: superset/assets/src/explore/controls.jsx:1385
 msgid "Whether to include a time filter"
@@ -2372,8 +2400,9 @@ msgid "Check to include SQL Granularity dropdown"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1397
+#, fuzzy
 msgid "Show SQL Time Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1399
 msgid "Check to include Time Column dropdown"
@@ -2396,8 +2425,9 @@ msgid "Check to include Time Origin dropdown"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1418
+#, fuzzy
 msgid "Data Table"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/explore/controls.jsx:1420
 msgid "Whether to display the interactive data table"
@@ -2413,7 +2443,7 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1433
 msgid "Table Filter"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/explore/controls.jsx:1436
 msgid "Whether to apply filter when table cell is clicked"
@@ -2560,8 +2590,9 @@ msgid ""
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1581
+#, fuzzy
 msgid "Time Shift"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1590
 msgid ""
@@ -2821,8 +2852,9 @@ msgid "Number of decimal places with which to display lift values"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1928
+#, fuzzy
 msgid "Time Series Columns"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1935
 msgid "Use Area Proportions"
@@ -2845,20 +2877,24 @@ msgid "Options"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1952
+#, fuzzy
 msgid "Not Time Series"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1954
+#, fuzzy
 msgid "Ignore time"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1957
+#, fuzzy
 msgid "Time Series"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1959
+#, fuzzy
 msgid "Standard time series"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1962
 msgid "Aggregate Mean"
@@ -2910,12 +2946,14 @@ msgid "Use the Advanced Analytics options below"
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1994
+#, fuzzy
 msgid "Settings for time series"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:1999
+#, fuzzy
 msgid "Equal Date Sizes"
-msgstr ""
+msgstr "Tarih Filtresi"
 
 #: superset/assets/src/explore/controls.jsx:2002
 msgid "Check to force date partitions to have the same height"
@@ -2961,8 +2999,9 @@ msgid ""
 msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:2051
+#, fuzzy
 msgid "Lines column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/controls.jsx:2053
 msgid "The database columns that contains lines information"
@@ -3111,8 +3150,9 @@ msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:11
 #: superset/assets/src/explore/visTypes.js:35
+#, fuzzy
 msgid "Time"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/visTypes.js:13
 #: superset/assets/src/explore/visTypes.js:36
@@ -3364,8 +3404,9 @@ msgid "Use this section if you want to query atomic rows"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:926
+#, fuzzy
 msgid "Time Series Table"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/explore/visTypes.js:944
 msgid ""
@@ -3382,8 +3423,9 @@ msgid "Number Format"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1093
+#, fuzzy
 msgid "Time Format"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/visTypes.js:1277
 msgid "Numeric Columns"
@@ -3504,12 +3546,14 @@ msgid "Metric that defines the size of the bubble"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1498
+#, fuzzy
 msgid "Filter Box"
-msgstr ""
+msgstr "Tarih Filtresi"
 
 #: superset/assets/src/explore/visTypes.js:1514
+#, fuzzy
 msgid "Filter controls"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/explore/visTypes.js:1515
 msgid ""
@@ -3608,8 +3652,9 @@ msgid "Column containing event names"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1725
+#, fuzzy
 msgid "Event count limit"
-msgstr ""
+msgstr "Kayıt Sayısı"
 
 #: superset/assets/src/explore/visTypes.js:1726
 msgid "The maximum number of events to return, equivalent to number of rows"
@@ -3628,8 +3673,9 @@ msgid "Paired t-test"
 msgstr ""
 
 #: superset/assets/src/explore/visTypes.js:1778
+#, fuzzy
 msgid "Time Series Options"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/components/AdhocFilterEditPopoverSimpleTabContent.jsx:212
 msgid "No such column found. To filter on a metric, try the Custom SQL tab."
@@ -3642,9 +3688,9 @@ msgstr ""
 
 #: superset/assets/src/explore/components/AdhocFilterEditPopoverSimpleTabContent.jsx:228
 #: superset/assets/src/explore/components/AdhocMetricEditPopover.jsx:166
-#, python-format
+#, fuzzy, python-format
 msgid "%s column(s)"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/components/AdhocFilterEditPopoverSimpleTabContent.jsx:229
 msgid "To filter on a metric, use Custom SQL tab."
@@ -3661,8 +3707,9 @@ msgstr ""
 
 #: superset/assets/src/explore/components/AdhocFilterEditPopoverSimpleTabContent.jsx:284
 #: superset/assets/src/explore/components/controls/Filter.jsx:120
+#, fuzzy
 msgid "Filter value"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/explore/components/AdhocFilterEditPopoverSqlTabContent.jsx:91
 msgid "choose WHERE or HAVING..."
@@ -3694,12 +3741,14 @@ msgid "Width"
 msgstr ""
 
 #: superset/assets/src/explore/components/ExploreActionButtons.jsx:42
+#, fuzzy
 msgid "Export to .json"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/assets/src/explore/components/ExploreActionButtons.jsx:52
+#, fuzzy
 msgid "Export to .csv format"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/assets/src/explore/components/ExploreChartHeader.jsx:64
 #, python-format
@@ -3756,8 +3805,9 @@ msgid "Save & go to dashboard"
 msgstr ""
 
 #: superset/assets/src/explore/components/controls/AdhocFilterControl.jsx:241
+#, fuzzy
 msgid "choose a column or metric"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/components/controls/AnnotationLayerControl.jsx:147
 msgid "Add Annotation Layer"
@@ -3791,8 +3841,9 @@ msgstr ""
 
 #: superset/assets/src/explore/components/controls/DatasourceControl.jsx:120
 #: superset/assets/src/explore/components/controls/VizTypeControl.jsx:120
+#, fuzzy
 msgid "Search / Filter"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/assets/src/explore/components/controls/DatasourceControl.jsx:180
 msgid "Click to point to another datasource"
@@ -3811,16 +3862,18 @@ msgid "Select metric"
 msgstr ""
 
 #: superset/assets/src/explore/components/controls/Filter.jsx:149
+#, fuzzy
 msgid "Select column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/assets/src/explore/components/controls/Filter.jsx:161
 msgid "Select operator"
 msgstr ""
 
 #: superset/templates/appbuilder/general/widgets/search.html:6
+#, fuzzy
 msgid "Add Filter"
-msgstr ""
+msgstr "Tarih Filtresi"
 
 #: superset/assets/src/explore/components/controls/MetricsControl.jsx:239
 msgid "choose a column or aggregate function"
@@ -3883,7 +3936,7 @@ msgstr ""
 #: superset/assets/src/profile/components/App.jsx:24
 #: superset/assets/src/welcome/App.jsx:56 superset/assets/src/welcome/App.jsx:59
 msgid "Favorites"
-msgstr ""
+msgstr "Faworiler"
 
 #: superset/assets/src/profile/components/App.jsx:30
 msgid "Created Content"
@@ -3894,8 +3947,9 @@ msgid "Recent Activity"
 msgstr ""
 
 #: superset/assets/src/profile/components/App.jsx:42
+#, fuzzy
 msgid "Security & Access"
-msgstr ""
+msgstr "Güvenlik"
 
 #: superset/assets/src/profile/components/CreatedContent.jsx:33
 msgid "No charts"
@@ -3920,7 +3974,7 @@ msgstr ""
 
 #: superset/assets/src/profile/components/Favorites.jsx:34
 msgid "No favorite charts yet, go click on stars!"
-msgstr ""
+msgstr "Henüz favori çizelge yok, yıldızlara tıklayın!"
 
 #: superset/assets/src/profile/components/Favorites.jsx:50
 msgid "No favorite dashboards yet, go click on stars!"
@@ -3928,7 +3982,7 @@ msgstr ""
 
 #: superset/assets/src/profile/components/Security.jsx:14
 msgid "Roles"
-msgstr ""
+msgstr "Roller"
 
 #: superset/assets/src/profile/components/Security.jsx:23
 #: superset/views/core.py:313
@@ -3937,7 +3991,7 @@ msgstr "Veritabanları"
 
 #: superset/assets/src/profile/components/Security.jsx:34
 msgid "Datasources"
-msgstr ""
+msgstr "Veri kaynakları"
 
 #: superset/assets/src/profile/components/UserInfo.jsx:19
 msgid "Profile picture provided by Gravatar"
@@ -3960,12 +4014,14 @@ msgid "Data has no time steps"
 msgstr ""
 
 #: superset/assets/src/visualizations/filter_box.jsx:115
+#, fuzzy
 msgid "Select starting date"
-msgstr ""
+msgstr "Tarih Filtresi"
 
 #: superset/assets/src/visualizations/filter_box.jsx:124
+#, fuzzy
 msgid "Select end date"
-msgstr ""
+msgstr "Tarih Filtresi"
 
 #: superset/assets/src/visualizations/filter_box.jsx:193
 #, python-format
@@ -3974,7 +4030,7 @@ msgstr ""
 
 #: superset/assets/src/visualizations/filter_box.jsx:230
 msgid "Apply"
-msgstr ""
+msgstr "Uygula"
 
 #: superset/assets/src/visualizations/nvd3_vis.js:172
 msgid "You cannot use 45° tick layout along with the time range filter"
@@ -3982,7 +4038,7 @@ msgstr ""
 
 #: superset/assets/src/welcome/App.jsx:47 superset/assets/src/welcome/App.jsx:50
 msgid "Recently Viewed"
-msgstr ""
+msgstr "Son Görüntülenenler"
 
 #: superset/connectors/druid/models.py:1038
 msgid "Metric(s) {} must be aggregations."
@@ -3997,24 +4053,28 @@ msgid "Unsupported extraction function: "
 msgstr ""
 
 #: superset/connectors/druid/views.py:33
+#, fuzzy
 msgid "List Druid Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/druid/views.py:34
+#, fuzzy
 msgid "Show Druid Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/druid/views.py:35
+#, fuzzy
 msgid "Add Druid Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/druid/views.py:36
+#, fuzzy
 msgid "Edit Druid Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/druid/views.py:50 superset/connectors/sqla/views.py:83
 msgid "Column"
-msgstr ""
+msgstr "Kolon"
 
 #: superset/connectors/druid/views.py:51 superset/connectors/druid/views.py:136
 #: superset/connectors/sqla/views.py:93 superset/connectors/sqla/views.py:134
@@ -4030,8 +4090,9 @@ msgid "Filterable"
 msgstr ""
 
 #: superset/connectors/druid/views.py:55
+#, fuzzy
 msgid "Count Distinct"
-msgstr ""
+msgstr "Kayıt Sayısı"
 
 #: superset/connectors/druid/views.py:56
 msgid "Sum"
@@ -4191,16 +4252,18 @@ msgid "Is Hidden"
 msgstr ""
 
 #: superset/connectors/druid/views.py:261 superset/connectors/sqla/views.py:229
+#, fuzzy
 msgid "Enable Filter Select"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/connectors/druid/views.py:262 superset/connectors/sqla/views.py:231
 msgid "Default Endpoint"
 msgstr ""
 
 #: superset/connectors/druid/views.py:263
+#, fuzzy
 msgid "Time Offset"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/druid/views.py:264 superset/connectors/sqla/views.py:233
 #: superset/views/core.py:279 superset/views/core.py:457
@@ -4208,12 +4271,14 @@ msgid "Cache Timeout"
 msgstr ""
 
 #: superset/connectors/druid/views.py:296
+#, fuzzy
 msgid "Druid Datasources"
-msgstr ""
+msgstr "Veri kaynakları"
 
 #: superset/connectors/druid/views.py:344
+#, fuzzy
 msgid "Scan New Datasources"
-msgstr ""
+msgstr "Veri kaynakları"
 
 #: superset/connectors/druid/views.py:352
 msgid "Refresh Druid Metadata"
@@ -4244,16 +4309,19 @@ msgid "List Columns"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:31
+#, fuzzy
 msgid "Show Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/sqla/views.py:32
+#, fuzzy
 msgid "Add Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/sqla/views.py:33
+#, fuzzy
 msgid "Edit Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/sqla/views.py:48
 msgid ""
@@ -4317,16 +4385,19 @@ msgid "List Tables"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:158
+#, fuzzy
 msgid "Show Table"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/connectors/sqla/views.py:159
+#, fuzzy
 msgid "Add Table"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/connectors/sqla/views.py:160
+#, fuzzy
 msgid "Edit Table"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/connectors/sqla/views.py:191
 msgid "Name of the table that exists in the source database"
@@ -4380,8 +4451,9 @@ msgid "Fetch Values Predicate"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:237
+#, fuzzy
 msgid "Main Datetime Column"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/sqla/views.py:239
 msgid "SQL Lab View"
@@ -4408,8 +4480,9 @@ msgid "Refresh Metadata"
 msgstr ""
 
 #: superset/connectors/sqla/views.py:294
+#, fuzzy
 msgid "Refresh column metadata"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/connectors/sqla/views.py:303
 #, python-format
@@ -4422,11 +4495,11 @@ msgstr ""
 
 #: superset/templates/appbuilder/navbar_right.html:41
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 #: superset/templates/appbuilder/navbar_right.html:42
 msgid "Logout"
-msgstr ""
+msgstr "Güvenli Çıkış"
 
 #: superset/templates/appbuilder/navbar_right.html:47
 msgid "Login"
@@ -4434,7 +4507,7 @@ msgstr ""
 
 #: superset/templates/appbuilder/general/widgets/base_list.html:37
 msgid "Record Count"
-msgstr ""
+msgstr "Kayıt Sayısı"
 
 #: superset/templates/appbuilder/general/widgets/base_list.html:46
 msgid "No records found"
@@ -4469,7 +4542,7 @@ msgstr ""
 #: superset/views/core.py:306 superset/views/core.py:2739
 #: superset/views/sql_lab.py:36
 msgid "Manage"
-msgstr ""
+msgstr "Yönetim"
 
 #: superset/views/annotations.py:57
 msgid "Annotations"
@@ -4485,20 +4558,23 @@ msgid "json isn't valid"
 msgstr ""
 
 #: superset/views/base.py:127
+#, fuzzy
 msgid "Export to YAML"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/views/base.py:127
+#, fuzzy
 msgid "Export to YAML?"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/views/base.py:188
 msgid "Delete"
-msgstr ""
+msgstr "Sil"
 
 #: superset/views/base.py:189
+#, fuzzy
 msgid "Delete all Really?"
-msgstr ""
+msgstr "Sil"
 
 #: superset/views/core.py:65
 msgid "This endpoint requires the `all_datasource_access` permission"
@@ -4538,8 +4614,9 @@ msgid ""
 msgstr ""
 
 #: superset/views/core.py:189
+#, fuzzy
 msgid "List Databases"
-msgstr ""
+msgstr "Veritabanları"
 
 #: superset/views/core.py:190
 msgid "Show Database"
@@ -4605,8 +4682,9 @@ msgid "Expose in SQL Lab"
 msgstr ""
 
 #: superset/views/core.py:272
+#, fuzzy
 msgid "Allow CREATE TABLE AS"
-msgstr ""
+msgstr "Tablo Filtresi"
 
 #: superset/views/core.py:273
 msgid "Allow DML"
@@ -4619,7 +4697,7 @@ msgstr ""
 #: superset/views/core.py:276 superset/views/core.py:458
 #: superset/views/core.py:575 superset/views/core.py:642
 msgid "Creator"
-msgstr ""
+msgstr "Oluşturan"
 
 #: superset/views/core.py:278
 msgid "SQLAlchemy URI"
@@ -4638,16 +4716,18 @@ msgid "Allow Run Async"
 msgstr ""
 
 #: superset/views/core.py:283
+#, fuzzy
 msgid "Impersonate the logged on user"
-msgstr ""
+msgstr "Kullanıcı Rolleri"
 
 #: superset/views/core.py:302
 msgid "Import Dashboards"
 msgstr ""
 
 #: superset/views/core.py:334
+#, fuzzy
 msgid "CSV to Database configuration"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/views/core.py:375
 msgid "CSV file \"{0}\" uploaded to table \"{1}\" in database \"{2}\""
@@ -4655,20 +4735,22 @@ msgstr ""
 
 #: superset/views/core.py:401 superset/views/core.py:667
 #: superset/views/sql_lab.py:23 superset/views/sql_lab.py:60
+#, fuzzy
 msgid "User"
-msgstr ""
+msgstr "Kullanıcı Rolleri"
 
 #: superset/views/core.py:402
 msgid "User Roles"
-msgstr ""
+msgstr "Kullanıcı Rolleri"
 
 #: superset/views/core.py:403
 msgid "Database URL"
 msgstr ""
 
 #: superset/views/core.py:405
+#, fuzzy
 msgid "Roles to grant"
-msgstr ""
+msgstr "Kullanıcı Rolleri"
 
 #: superset/views/core.py:406
 msgid "Created On"
@@ -4680,7 +4762,7 @@ msgstr ""
 
 #: superset/views/core.py:414 superset/views/core.py:679
 msgid "Security"
-msgstr ""
+msgstr "Güvenlik"
 
 #: superset/views/core.py:421
 msgid "List Charts"
@@ -4710,8 +4792,9 @@ msgid "Duration (in seconds) of the caching timeout for this chart."
 msgstr ""
 
 #: superset/views/core.py:462
+#, fuzzy
 msgid "Last Modified"
-msgstr ""
+msgstr "Güncelleme"
 
 #: superset/views/core.py:463 superset/views/core.py:574
 msgid "Owners"
@@ -4791,11 +4874,12 @@ msgstr ""
 
 #: superset/views/core.py:603
 msgid "Export"
-msgstr ""
+msgstr "Dışa Aktar"
 
 #: superset/views/core.py:603
+#, fuzzy
 msgid "Export dashboards?"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/views/core.py:668
 msgid "Action"
@@ -4899,20 +4983,23 @@ msgid "Query Search"
 msgstr ""
 
 #: superset/views/core.py:2767
+#, fuzzy
 msgid "Upload a CSV"
-msgstr ""
+msgstr "Dışa Aktar CSV"
 
 #: superset/views/sql_lab.py:25
 msgid "Status"
 msgstr ""
 
 #: superset/views/sql_lab.py:26
+#, fuzzy
 msgid "Start Time"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/views/sql_lab.py:27 superset/views/sql_lab.py:64
+#, fuzzy
 msgid "End Time"
-msgstr ""
+msgstr "zaman sütunu"
 
 #: superset/views/sql_lab.py:34
 msgid "Queries"
