@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-06-07 00:22-0700\n"
-"PO-Revision-Date: 2019-06-23 15:33+0300\n"
+"PO-Revision-Date: 2019-06-23 16:06+0300\n"
 "Language: tr\n"
 "Language-Team: tr <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -4184,7 +4184,7 @@ msgstr ""
 #: superset/connectors/sqla/views.py:315 superset/views/core.py:316
 #: superset/views/core.py:2771
 msgid "Sources"
-msgstr ""
+msgstr "Veri Kaynakları"
 
 #: superset/connectors/druid/views.py:204
 msgid "List Druid Datasource"
@@ -4491,7 +4491,7 @@ msgstr ""
 
 #: superset/connectors/sqla/views.py:311
 msgid "Tables"
-msgstr ""
+msgstr "Tablolar"
 
 #: superset/templates/appbuilder/navbar_right.html:41
 msgid "Profile"
