@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-06-07 00:22-0700\n"
-"PO-Revision-Date: 2019-06-23 16:06+0300\n"
+"PO-Revision-Date: 2019-06-23 16:51+0300\n"
 "Language: tr\n"
 "Language-Team: tr <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -1227,7 +1227,7 @@ msgstr ""
 #: superset/assets/src/dashboard/components/Controls.jsx:123
 #: superset/assets/src/explore/components/SaveModal.jsx:163
 msgid "Save as"
-msgstr ""
+msgstr "Farklı Kaydet"
 
 #: superset/assets/src/dashboard/components/Controls.jsx:131
 msgid "Force Refresh"
@@ -1373,16 +1373,16 @@ msgstr ""
 
 #: superset/assets/src/dashboard/components/SaveModal.jsx:111
 msgid "Save Dashboard"
-msgstr ""
+msgstr "Dashboard Kaydet"
 
 #: superset/assets/src/dashboard/components/SaveModal.jsx:119
 #, python-format
 msgid "Overwrite Dashboard [%s]"
-msgstr ""
+msgstr "Overwrite Dashboard [%s]"
 
 #: superset/assets/src/dashboard/components/SaveModal.jsx:127
 msgid "Save as:"
-msgstr ""
+msgstr "Farklı Kaydet:"
 
 #: superset/assets/src/dashboard/components/SaveModal.jsx:131
 #: superset/assets/src/explore/components/SaveModal.jsx:209
