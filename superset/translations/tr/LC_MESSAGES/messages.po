@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-06-07 00:22-0700\n"
-"PO-Revision-Date: 2019-06-23 16:51+0300\n"
+"PO-Revision-Date: 2019-06-27 14:28+0300\n"
 "Language: tr\n"
 "Language-Team: tr <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -745,7 +745,7 @@ msgstr ""
 #: superset/assets/src/SqlLab/components/QuerySearch.jsx:171
 #: superset/assets/src/SqlLab/components/ResultSet.jsx:89
 msgid "Search Results"
-msgstr ""
+msgstr "Arama Sonuçları"
 
 #: superset/assets/src/SqlLab/components/QuerySearch.jsx:177
 msgid "[From]-"
@@ -761,7 +761,7 @@ msgstr ""
 
 #: superset/assets/src/SqlLab/components/QuerySearch.jsx:205
 msgid "Search"
-msgstr ""
+msgstr "Arama"
 
 #: superset/assets/src/SqlLab/components/QueryTable.jsx:114
 msgid "Open in SQL Editor"
@@ -932,7 +932,7 @@ msgstr ""
 
 #: superset/assets/src/SqlLab/components/SqlEditorLeftBar.jsx:146
 msgid "Type to search ..."
-msgstr ""
+msgstr "Aramak için yazın …"
 
 #: superset/assets/src/SqlLab/components/SqlEditorLeftBar.jsx:148
 #, fuzzy
@@ -2435,7 +2435,7 @@ msgstr ""
 
 #: superset/assets/src/explore/controls.jsx:1425
 msgid "Search Box"
-msgstr ""
+msgstr "Arama kutusu"
 
 #: superset/assets/src/explore/controls.jsx:1428
 msgid "Whether to include a client side search box"
@@ -3841,9 +3841,8 @@ msgstr ""
 
 #: superset/assets/src/explore/components/controls/DatasourceControl.jsx:120
 #: superset/assets/src/explore/components/controls/VizTypeControl.jsx:120
-#, fuzzy
 msgid "Search / Filter"
-msgstr "Tablo Filtresi"
+msgstr "Arama / Filtre"
 
 #: superset/assets/src/explore/components/controls/DatasourceControl.jsx:180
 msgid "Click to point to another datasource"
@@ -4457,7 +4456,7 @@ msgstr "zaman sütunu"
 
 #: superset/connectors/sqla/views.py:239
 msgid "SQL Lab View"
-msgstr ""
+msgstr "SQL Lab Görünümü"
 
 #: superset/connectors/sqla/views.py:240
 msgid "Template parameters"
@@ -4503,7 +4502,7 @@ msgstr "Güvenli Çıkış"
 
 #: superset/templates/appbuilder/navbar_right.html:47
 msgid "Login"
-msgstr ""
+msgstr "Giriş"
 
 #: superset/templates/appbuilder/general/widgets/base_list.html:37
 msgid "Record Count"
@@ -4511,7 +4510,7 @@ msgstr "Kayıt Sayısı"
 
 #: superset/templates/appbuilder/general/widgets/base_list.html:46
 msgid "No records found"
-msgstr ""
+msgstr "Kayıt bulunamadı"
 
 #: superset/templates/superset/import_dashboards.html:11
 msgid "Import dashboards"
@@ -4980,7 +4979,7 @@ msgstr ""
 
 #: superset/views/core.py:2757
 msgid "Query Search"
-msgstr ""
+msgstr "Sorgu Arama"
 
 #: superset/views/core.py:2767
 #, fuzzy
