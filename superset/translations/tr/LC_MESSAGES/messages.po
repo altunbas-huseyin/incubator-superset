@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-06-07 00:22-0700\n"
-"PO-Revision-Date: 2019-06-27 14:28+0300\n"
+"PO-Revision-Date: 2019-06-27 16:50+0300\n"
 "Language: tr\n"
 "Language-Team: tr <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -918,9 +918,8 @@ msgid "Create table as with query results"
 msgstr ""
 
 #: superset/assets/src/SqlLab/components/SqlEditor.jsx:173
-#, fuzzy
 msgid "new table name"
-msgstr "Tablo Filtresi"
+msgstr "Yeni tablo adı"
 
 #: superset/assets/src/SqlLab/components/SqlEditorLeftBar.jsx:91
 msgid "Error while fetching table list"
@@ -1081,7 +1080,7 @@ msgstr ""
 
 #: superset/assets/src/addSlice/AddSliceContainer.jsx:59
 msgid "Create a new chart"
-msgstr ""
+msgstr "Yeni chart oluştur"
 
 #: superset/assets/src/addSlice/AddSliceContainer.jsx:61
 #: superset/assets/src/addSlice/AddSliceContainer.jsx:69
@@ -1105,7 +1104,7 @@ msgstr ""
 
 #: superset/assets/src/addSlice/AddSliceContainer.jsx:101
 msgid "Create new chart"
-msgstr ""
+msgstr "Yeni chart oluştur"
 
 #: superset/assets/src/chart/chartAction.js:169
 msgid "Unexpected error: "
@@ -3798,7 +3797,7 @@ msgstr ""
 
 #: superset/assets/src/explore/components/SaveModal.jsx:204
 msgid "Add to new dashboard"
-msgstr ""
+msgstr "Yeni dashboard’a ekle"
 
 #: superset/assets/src/explore/components/SaveModal.jsx:230
 msgid "Save & go to dashboard"
